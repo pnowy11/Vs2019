@@ -1,0 +1,32 @@
+Module Module1
+    Dim answer As String
+    Dim name As String
+    Dim answer2 As String
+    Dim answer3 As String
+    Dim answer4 As String
+
+    Sub Main()
+        Console.WriteLine("what is your name?")
+        name = Console.ReadLine()
+        Console.WriteLine(name & "? cool name what topic do you want to talk about? (JOJO/WEATHER/WATER/HAMBURGER)")
+        answer = Console.ReadLine()
+        If answer = "HAMBURGER" Then Console.WriteLine("Hamburgers are the life energy of college students with many different types of burger. (BURGER/CHEESEBURGER/CHICKEN)")
+        If answer = "WATER" Then Console.WriteLine("There are multiple different kinds of nice water, if you would like to know more use these formats! (NICEWATER/BADWATER")
+        If answer = "WEATHER" Then Console.WriteLine("The weather's pretty shit like always not much to talk about")
+        If answer = "JOJO" Then Console.WriteLine("What part do you want to talk about? (JOJO1/JOJO2/JOJO3/JOJO4/JOJO5)")
+        answer2 = Console.ReadLine()
+        If answer2 = "BURGER" Then Console.WriteLine("Normie burger, if you are really broke you can get burger for 10p cheaper than cheeseburger")
+        If answer2 = "CHEESEBURGER" Then Console.WriteLine("Cheeseburgers are the perfect balance of price for taste, however it doesnt fill you up at all")
+        If answer2 = "CHICKEN" Then Console.WriteLine("The perfect formula for a burger, its literally just chicken and its the best")
+        If answer2 = "NICEWATER" Then Console.WriteLine("The purest form of water is from a clear stream, rich full of minerals and fresh")
+        If answer2 = "BADWATER" Then Console.WriteLine("Poo water bad")
+        If answer2 = "JOJO1" Then Console.WriteLine("Yeah JoJo 1 is alright, a bit slow but it sets up the entire series with a strong protagonist and supporting cast")
+        If answer2 = "JOJO2" Then Console.WriteLine("JoJo 2 is a bit strange as it shouldn't be as good as it is, but it all just blends well with old and new supporting
+characters being great and fun with the main protagonist being one of the best in the serious in my opinion as hes likeable, witty and smart.")
+        If answer2 = "JOJO3" Then Console.WriteLine(" JoJo placeholder text")
+        If answer2 = "JOJO4" Then Console.WriteLine(" JoJo placeholder text")
+        If answer2 = "JOJO5" Then Console.WriteLine(" JoJo placeholder text")
+        Console.ReadLine()
+    End Sub
+
+End Module
